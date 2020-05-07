@@ -11,12 +11,12 @@ function Naverino() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/Shop">Shop</Nav.Link>
+                    <Nav.Link href="/WorkingAxios">About</Nav.Link>
                     <Nav.Link href="/Signup">Sing Up</Nav.Link>
                     <NavDropdown title="Shop" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Men</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Woman</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Kids</NavDropdown.Item>
+                        <NavDropdown.Item href="/Shop">Small cats</NavDropdown.Item>
+                        <NavDropdown.Item href="/Shop">Chunky cats</NavDropdown.Item>
+                        <NavDropdown.Item href="/Shop">Hairless cats</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Doggos</NavDropdown.Item>
                     </NavDropdown>

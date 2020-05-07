@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
+import catpic from '../src/imagenes/catslide.jpg';
+import catpicc from '../src/imagenes/catslidee.jpg';
+import catpiccc from '../src/imagenes/test.jpg';
 
 function Images() {
     return (
@@ -8,36 +11,36 @@ function Images() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src='https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg'
+                    src={catpic}
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Find the perfect cat for you!</h3>
+                    <p>Feel free to check our wide selection of cats</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg"
+                    src={catpicc}
                     alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>All the cats we sell are Trump supporters </h3>
+                    <p>Just kidding we hope bernie wins this time</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://cdn.mos.cms.futurecdn.net/VSy6kJDNq2pSXsCzb6cvYF.jpg"
+                    src={catpiccc}
                     alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Take our cat personality test</h3>
+                    <p>Fill out cat personality test to find the perfect match for you.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

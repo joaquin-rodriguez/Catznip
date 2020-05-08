@@ -12,11 +12,15 @@ export default class PersonList extends React.Component {
         axios.get('https://jsonplaceholder.typicode.com/users').then(res => {
             console.log(res);
             this.setState({ persons: res.data });
+            localStorage.setItem('data', JSON.stringify(res.data));
         });
+
     }
 
+
+
     render() {
-        return <ListGroup>{this.state.persons.map(person => <ListGroup.Item key={person.id}>{person.name})</ListGroup.Item>)}
+        return <ListGroup className="listboy" >{this.state.persons.map(person => <ListGroup.Item key={person.id}>{person.name}</ListGroup.Item>)}
         </ListGroup>;
     }
 }

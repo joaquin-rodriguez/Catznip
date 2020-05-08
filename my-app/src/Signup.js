@@ -1,9 +1,11 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap'
+import { Form, Button, } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Signup() {
     return (
+
         <Form className='form'>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
